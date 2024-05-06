@@ -1,4 +1,4 @@
-import Board
+from Board import *
 
 class mctsAgent:
     def __init__(self, player):

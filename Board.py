@@ -20,8 +20,8 @@ class Board:
         self.pieceCount = {}
         self.kingCount = {}
         
-        self.pieceCount[AGENT] = 12
-        self.pieceCount[OPP] = 12
+        self.pieceCount[AGENT] = 6
+        self.pieceCount[OPP] = 6
         
         self.kingCount[AGENT] = 0
         self.kingCount[OPP] = 0

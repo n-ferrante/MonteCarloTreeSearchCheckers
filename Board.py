@@ -1,16 +1,6 @@
 import numpy as np
 import random
-
-# Different directions to move
-NORTHEAST = "northeast"
-NORTHWEST = "northwest"
-SOUTHEAST = "southeast"
-SOUTHWEST = "southwest"
-
-# Different turns
-AGENT = "agent"
-OPP = "opposition"
-
+from Constants import *
 
 class Board:
     def __init__(self):

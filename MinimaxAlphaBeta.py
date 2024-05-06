@@ -1,4 +1,4 @@
-import Board
+from Board import *
 
 def minimax(player, depth, board):
     if depth == 0 or board.isTerminal()[0]:

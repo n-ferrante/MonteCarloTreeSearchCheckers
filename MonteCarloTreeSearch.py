@@ -1,3 +1,5 @@
+import Board
+
 class mctsAgent:
     def __init__(self, player):
         self.player = player
